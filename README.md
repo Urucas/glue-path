@@ -1,5 +1,5 @@
-# glue-path
-Glue path with '\' or '/' depending on platform
+# glue-path [![Build Status](https://travis-ci.org/Urucas/glue-path.svg)](https://travis-ci.org/Urucas/glue-path)
+Glue path with '\' or '/' depending on process platform
 
 #Usage
 ```bash
