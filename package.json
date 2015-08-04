@@ -1,0 +1,36 @@
+{
+  "name": "glue-path",
+  "version": "0.0.1",
+  "description": "Glue path with '\\' or '/' depending on platform",
+  "main": "./node/index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha tests/* --compilers js:babel/register -t 15s",
+    "build": "make clean && make node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urucas/glue-path.git"
+  },
+  "keywords": [
+    "glue",
+    "path",
+    "folder",
+    "platform",
+    "osx",
+    "linux",
+    "windows"
+  ],
+  "author": "Urucas <hello@urucas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Urucas/glue-path/issues"
+  },
+  "homepage": "https://github.com/Urucas/glue-path#readme",
+  "devDependencies": {
+    "babel": "^5.8.20",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "is-plain-obj": "^1.0.0"
+  }
+}
