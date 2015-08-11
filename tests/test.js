@@ -1,9 +1,10 @@
 import gluePath from '../lib/'
 import isPlainObj from 'is-plain-obj'
+import path from 'path'
 
 describe("glue-path instance tests", () => {
 
-  let glue = /^win/.test(process.platform) ? '\\' : '\/';
+  let glue = path.sep;
   
   it("should return glue", (done) => {
     let path = gluePath()
